@@ -4,6 +4,7 @@ import TestimonialHome from "../components/TestimonialHome";
 import ServicesHome from "../components/ServicesHome";
 import amitDesk from "../images/amitdesk.jpeg";
 import imakids from "../images/imakids.jpeg";
+import background from "../images/background.png";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -11,8 +12,8 @@ export default function Home() {
     <div>
       {/* HERO */}
       <section
-        className="w-full h-[500px] items-center relative flex
-  bg-[url('/images/background.png')] bg-cover bg-[0%_30%] bg-no-repeat"
+        className="w-full h-[500px] items-center relative flex bg-cover bg-[0%_30%] bg-no-repeat"
+        style={{ backgroundImage: `url(${background})` }}
       >
         <div className="absolute inset-0 bg-black/40" />
 
