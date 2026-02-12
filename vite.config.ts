@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/speech4children_updated/', // must match repo name
+  base: '/', // must match repo name
 })
