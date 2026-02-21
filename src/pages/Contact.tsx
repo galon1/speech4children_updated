@@ -51,7 +51,7 @@ export default function Contact() {
           <p>
             44 Mechanic St,
             <br />
-            Newton MA, 20464, Suite 106-108
+            Newton MA, 02464, Suite 106-108
           </p>
         </div>
 
